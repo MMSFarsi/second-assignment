@@ -1,0 +1,645 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+/* Shared Style */
+.text-center {
+    text-align: center;
+
+}
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+}
+
+.section-title {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    font-weight: 900;
+}
+
+.section-description {
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 30px;
+    font-size: .8rem;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.btn-primary {
+    padding: 16px 50px;
+    border-radius: 40px;
+    background-color: #E6533C;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.btn-special {
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.btn-primary i {
+    margin-right: 8px;
+}
+
+
+/* Shared Style Ended */
+
+header {
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+}
+
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 150px;
+    padding: 57px 0 90px 0;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 3px;
+
+
+}
+
+#selected {
+    background-color: #E6533C;
+    padding: 8px 18px;
+    border-radius: 45px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 2.75rem;
+    font-style: italic;
+    color: #E6533C;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 51px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 19px;
+}
+
+/* Banner Styles */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+
+.banner-content {
+    max-width: 550px;
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 80px;
+    margin-bottom: 28px;
+    letter-spacing: 1px;
+}
+
+#shape {
+    font-family: 'Miama', sans-serif;
+    font-weight: 50;
+    font-size: 8rem;
+}
+
+.img-hover1,
+.img-hover2 {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    position: absolute;
+}
+
+.img-hover1 {
+    left: 764px;
+    top: 600px;
+    width: 180px;
+    height: 80px;
+}
+
+.img-hover2 {
+    left: 1100px;
+    top: 320px;
+    width: 193px;
+    height: 98px;
+}
+
+.threefifty {
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.fivehun {
+    font-size: 41px;
+    font-weight: 900;
+}
+
+
+/* Habit Section */
+.card {
+    width: 250px;
+    text-align: center;
+
+}
+
+.habit-section {
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+.habit-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 70px;
+}
+
+.habit-container img {
+    border-radius: 50%;
+    border: 4px solid rgba(77, 75, 75, 0.384);
+    margin-bottom: 24px;
+}
+
+.habit-section h4 {
+    margin-bottom: 5px;
+}
+
+.habit-section .section-description {
+    line-height: 18px;
+}
+
+/* Run Section */
+.run-section {
+    margin: 20px 150px;
+    margin-bottom: 100px;
+
+}
+
+.run-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(34, 34, 34, 1);
+    border-radius: 20px;
+    padding: 30px;
+
+}
+
+.run-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-position: cover;
+}
+
+.run-container .section-description {
+    margin-bottom: 34px;
+}
+
+.run-text {
+    width: 400px;
+
+}
+
+.run-img {
+    width: 400px;
+}
+
+
+/* BMI Section */
+.bmi-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 150px;
+    gap: 10px;
+    padding-top: 52px;
+    padding-bottom: 52px;
+}
+
+.bmi-heading {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.bmi-1st {
+    max-width: 300px;
+}
+
+.bmi-2nd {
+    width: 300;
+}
+
+.bmi-textbox {
+    padding-bottom: 50px;
+    width: 650px;
+    margin: 0 auto;
+}
+
+#bm {
+
+    background-color: rgba(255, 255, 255, 0.1);
+
+
+}
+
+table,
+th,
+td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+table {
+    width: 310px;
+}
+
+
+th,
+td {
+    padding: 20px;
+    font-size: 13px;
+    margin-right: 10px;
+
+
+}
+
+td {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .7rem;
+}
+
+.bmi-subheading {
+    margin-bottom: 52px;
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+
+input,
+select {
+    padding: 13px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    border: none;
+    margin-right: 4px;
+    margin-bottom: 4px;
+}
+
+select {
+    width: 205px;
+}
+
+#select-special {
+    width: 420px;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Team Section */
+.team-section {
+    margin: 20px 150px;
+    padding-bottom: 50px;
+}
+
+.team-section .section-description {
+    margin-bottom: 50px;
+}
+
+.team-section .bmi-heading {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(56, 52, 48);
+    border-radius: 10px;
+}
+
+.profile {
+    position: relative;
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    justify-items: ;
+    width: 326.67px;
+    height: 272px;
+}
+
+.profile img {
+    width: 100%;
+    height: auto;
+    display: block;
+    opacity: .8;
+}
+
+.profile .info {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    padding: 10px 0;
+
+
+}
+
+.profile h3 {
+    margin: 0;
+    font-size: 1.2em;
+
+}
+
+.profile p {
+    margin: 0;
+    font-size: 0.9em;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Footer Section */
+footer {
+
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+
+}
+
+.footer-title {
+    font-size: 4.5rem;
+    margin-bottom: 20px;
+    font-weight: 900;
+
+}
+
+.footer-title i {
+    color: #E6533C;
+
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+
+}
+
+.footer-link {
+    margin-bottom: 10px;
+    font-size: 1.35rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.link-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+hr {
+    width: 80%;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+.credit {
+    padding: 30px 0;
+
+    font-size: 1.25rem;
+}
+
+small {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width:576px) {
+
+
+    .nav-items {
+        display: none;
+    }
+
+    nav {
+        margin: 0 20px;
+
+    }
+
+    .banner,
+    .habit-container {
+        flex-direction: column;
+        margin: 0px 20px;
+        align-items: center;
+    }
+    .btn-primary {
+        padding: 15px 15px;
+
+    }
+
+    .btn-special {
+        padding: 15px 15px;
+
+    }
+
+    .banner-content {
+        margin-bottom: 55px;
+    }
+
+    .banner-title {
+        font-size: 3rem;
+
+        font-weight: 900;
+        line-height: ;
+        margin-bottom: 28px;
+        letter-spacing: -1;
+        width: 300px;
+
+    }
+
+    .banner-content .section-description {
+        width: 300px;
+    }
+
+    #shape {
+        font-family: 'Miama', sans-serif;
+        font-weight: 50;
+        font-size: 6rem;
+    }
+
+    .banner-profile-pic {
+
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .img-hover1 {
+        left: 2px;
+        top: 950px;
+
+    }
+
+    .img-hover2 {
+        left: 240px;
+        top: 760px;
+        width: 150px;
+
+    }
+
+    .run-section {
+        margin: 0px 20px;
+        margin-bottom: 100px;
+
+    }
+
+    .run-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .run-container img {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        background-position: cover;
+    }
+
+    .run-img {
+        width: 285px;
+        height: 170px;
+        margin-top: 20px;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .run-text .section-description {
+        text-align: justify;
+    }
+
+    .run-text {
+        width: 273px;
+
+    }
+
+    .run-container .btn-primary {
+        padding: 15px 90px;
+        margin-left: 10px;
+    }
+
+    .bmi-container {
+        flex-direction: column;
+        margin: 0px 20px;
+        gap: 10px;
+        margin-top: -40px;
+
+    }
+
+    .bmi-textbox {
+        width: 350px;
+    }
+
+    #select-special {
+        width: 300px;
+    }
+
+    .bmi-heading {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    .bmi-subheading {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    input,
+    select {
+        width: 170px;
+        margin: 5px;
+    }
+
+    #select-special {
+        width: 350px;
+    }
+
+    .bmi-container .btn-primary {
+        padding: 15px 60px;
+        margin-top: 10px;
+
+    }
+
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+        /* gap: 20px;
+    padding: 20px;
+    background-color: rgb(56, 52, 48);
+    border-radius: 10px; */
+    }
+
+    .team-section {
+        margin: 0px 20px;
+        padding-bottom: 50px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        margin: 0px 20px;
+
+    }
+
+    .footer-container .section-description {
+        text-align: justify;
+        font-size: 16px;
+        width: 315px;
+    }
+
+
+
+}
