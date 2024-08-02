@@ -29,6 +29,10 @@
     font-weight: 300;
     line-height: 24px;
     letter-spacing: 0.5px;
+    
+}
+.left-text{
+    text-align: left;
 }
 
 .btn-primary {
@@ -49,6 +53,9 @@
     margin-right: 8px;
 }
 .none{
+    display: none;
+}
+#ham{
     display: none;
 }
 
@@ -166,6 +173,7 @@ nav li a {
     font-weight: 900;
     margin-bottom: 5px;
 }
+
 
 .fivehun {
     font-size: 41px;
@@ -528,6 +536,9 @@ small {
 
     .nav-items {
         display: none;
+    }
+    #ham{
+        display:block;
     }
 
     nav {
