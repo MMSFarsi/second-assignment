@@ -228,6 +228,7 @@ nav li a {
     background-color: rgba(34, 34, 34, 1);
     border-radius: 20px;
     padding: 30px;
+    align-items: center;
 
 }
 
@@ -249,7 +250,8 @@ nav li a {
 }
 
 .run-img {
-    width: 400px;
+    width: 366px;
+    height: 312px;
 }
 
 
@@ -258,7 +260,7 @@ nav li a {
     display: flex;
     justify-content: space-around;
     margin: 20px 150px;
-    gap: 10px;
+    gap: 20px;
     padding-top: 52px;
     padding-bottom: 52px;
 }
@@ -368,6 +370,7 @@ select {
     padding: 20px;
     background-color: rgb(56, 52, 48);
     border-radius: 10px;
+    justify-items: center;
 }
 
 .profile {
@@ -425,6 +428,9 @@ footer {
     padding-bottom: 50px;
 
 
+}
+.footer-text{
+    width: 42%;
 }
 
 .footer-title {
@@ -626,8 +632,7 @@ small {
     }
 
     .run-img {
-        width: 285px;
-        height: 170px;
+        
         margin-top: 20px;
     }
 
@@ -636,7 +641,7 @@ small {
     }
 
     .run-text .section-description {
-        text-align: justify;
+      
     }
 
     .run-text {
@@ -652,6 +657,7 @@ small {
     .offer-container{
         flex-direction: column;
         gap: 20px;
+        justify-content: center;
     }
     .offer-section{
         margin: 40px 20px;
@@ -720,9 +726,12 @@ small {
     }
 
     .footer-container .section-description {
-        text-align: justify;
-        font-size: 16px;
-        width: 315px;
+        
+        font-size: 1rem;
+        
+    }
+    .footer-text{
+        width: 90%;
     }
 
 
