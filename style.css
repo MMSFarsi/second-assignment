@@ -252,6 +252,11 @@ nav li a {
 .run-img {
     width: 366px;
     height: 312px;
+    
+}
+.run-img img{
+    object-fit: none;
+    object-position: 66% 33%;
 }
 
 
@@ -413,6 +418,8 @@ select {
     font-size: 0.9em;
     color: rgba(255, 255, 255, 0.5);
 }
+
+
 
 /* Footer Section */
 footer {
@@ -632,8 +639,13 @@ small {
     }
 
     .run-img {
-        
+            width: 85%;
+            height: 80%;
+            
         margin-top: 20px;
+    }
+    .run-img img{
+        object-fit:cover;
     }
 
     .section-title {
@@ -652,6 +664,9 @@ small {
     .run-container .btn-primary {
         padding: 15px 90px;
         margin-left: 10px;
+    }
+    .offer{
+        width: 80%;
     }
 
     .offer-container{
