@@ -658,6 +658,7 @@ small {
         flex-direction: column;
         gap: 20px;
         justify-content: center;
+        align-items: center;
     }
     .offer-section{
         margin: 40px 20px;
